@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+  "TeamCount" "1"
+  "maps"      "td_map2"
+  "IsPlayable"  "1"
+  "td_map2"
+  {
+          "MaxPlayers"                    "4"
+  }
+}

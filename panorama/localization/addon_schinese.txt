@@ -1,0 +1,83 @@
+"addon"
+{
+	"Unassigned"						"未指定阵营"
+	"Spectator"							"观众"
+	"Neutrals"							"中立阵营"
+	"NoTeam"							"无阵营"
+
+	"DOTA_GoodGuys"						"防御者"
+
+	"addonname"							"塔防摇摇乐"
+
+	//Loadingscreen section
+	"loading_screen_tutorial"			"你好，欢迎来到塔防摇摇乐，选择搭配英雄颜色的平台建造防御塔，并选择使用的技能。如果要玩售货机可以使用英雄技能。"
+	//
+
+	//scoreboard section
+	"legend_player"						"播放器"
+	"legend_kills"						"击杀"
+	"legend_towers"						"防御塔"
+	"legend_net"						"总计"
+	"legend_spin"						"摇金币"
+	//
+
+	//game settings section
+	"settings_host_diff"				"房主选择游戏难度"
+
+	//NOTE: leading and trailing spaces are required otherwise the normal text gets replaced for some reason :/
+	"settings_diff_easy"				" 简单 "
+	"settings_diff_normal"				" 普通 "
+	"settings_diff_hard"				" 困难 "
+
+	"settings_host_gamemode"			"房主选择游戏模式"
+
+	//NOTE: leading and trailing spaces are required otherwise the normal text gets replaced for some reason :/
+	"settings_gamemode_normal"			" 普通 "
+	"settings_gamemode_SCRAMBLE"		" 乱斗 "
+
+	//
+
+	//PLUS MODE section
+	"text_plus_vote"					"投票：玩附加模式？"
+	"yes_vote"							"是"
+	"no_vote"							"否"
+	//
+
+	"itemTutorial"						"将物品拖曳至防御塔上就能将其装备。"
+	"startTutorial"						"选择英雄旁的彩色平台就能建造防御塔。"
+	"dcTryingToBuild"					"由于刚才的掉线，必须等到下一轮防御塔的建造！"
+	"wave_notifier"						"波数："
+
+	//boss messages section
+
+	"boss_loot"							"BOSS来袭"
+
+	"boss_fish_hex"						"鲤鱼王"
+	"boss_spamm_messer"					"看我不疼死你！"
+	"boss_pudge"						"好大一块肉"
+	"boss_high_priest"					"你并不需要攻速"
+	"boss_nyx"							"夜神 夜神 夜神"
+	"boss_lycan"						"嘭嘭嘭"
+	"boss_abaddon"						"小朋友，路边的魔剑你不要捡"
+	"boss_faceless_void"				"停下战铁锤之时"
+	"boss_tony"							"布也兜不住石头"
+	"boss_roshan_spintd"				"RARGH"
+
+	//slot machine section
+
+	"slot_mult_symbol"					"X"
+	"no_luck"							"运气太差"
+	"spins"								"摇摇乐！"
+
+	"slot_frog_msg"						"零花钱"
+	"slot_lockjaw_msg"					"一大笔钱"
+	"slot_trapjaw_msg"					"一大笔钱"
+	"slot_mega_greevil_msg"				"哦耶"
+	"slot_sheep_msg"					"双倍"
+	"slot_present_msg"					"物品奖励"
+	"slot_treasure_chest_msg"			"物品奖励"
+	"slot_gold_greevil_msg"				"头等奖"
+
+	//
+
+}

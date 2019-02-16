@@ -1,0 +1,84 @@
+"addon"
+{
+	"Unassigned"						"Unassigned Team"
+	"Spectator"							"Spectator Team"
+	"Neutrals"							"Neutral Team"
+	"NoTeam"							"No Team"
+
+	"DOTA_GoodGuys"						"Defenders"
+
+	"addonname"							"SPIN TD"
+
+	//Loadingscreen section
+	"loading_screen_tutorial"			"Hello and welcome to spin td, to build towers select the platforms that match your hero color and use the abilities to build. If you want to play the slotmachine use your hero abilities to do so."
+	//
+
+	//scoreboard section
+	"legend_player"						"player"
+	"legend_kills"						"kills"
+	"legend_towers"						"towers"
+	"legend_net"						"net"
+	"legend_spin"						"spin $"
+	//
+
+	//game settings section
+	"settings_host_diff"				"Host pick a difficulty"
+
+	//NOTE: leading and trailing spaces are required otherwise the normal text gets replaced for some reason :/
+	"settings_diff_easy"				" EASY "
+	"settings_diff_normal"				" NORMAL "
+	"settings_diff_hard"				" HARD "
+
+	"settings_host_gamemode"			"Host pick a gamemode"
+
+	//NOTE: leading and trailing spaces are required otherwise the normal text gets replaced for some reason :/
+	"settings_gamemode_normal"			" NORMAL "
+	"settings_gamemode_SCRAMBLE"		" SCRAMBLE "
+
+	//
+
+	//PLUS MODE section
+	"text_plus_vote"					"VOTE: PLAY PLUS MODE?"
+	"yes_vote"							"YES"
+	"no_vote"							"NO"
+	//
+
+	"itemTutorial"						"Drop items on towers to equip them."
+	"startTutorial"						"To build towers select the colored platforms next to your hero."
+	"dcTryingToBuild"					"Since you disconnected you have to wait for the next turn to build new towers!"
+	"wave_notifier"						"Wave:"
+
+	//boss messages section
+
+	"boss_loot"							"BOSS LOOT"
+
+	"boss_fish_hex"						"rutilus rutilus."
+	"boss_spamm_messer"					"I will hit you were it hurts most!"
+	"boss_pudge"						"Fresh meat"
+	"boss_high_priest"					"You don't need attackspeed"
+	"boss_lycan"						"A huff and a puff"
+	"boss_nyx"							"NYX NYX NYX"
+	"boss_abaddon"						"Don't pick up cursed swords kids."
+	"boss_faceless_void"				"STOP HAMMERTIME"
+	"boss_tony"							"Not even paper can save you."
+	"boss_roshan_spintd"				"RARGH"
+
+	//slot machine section
+
+	"slot_mult_symbol"					"X"
+	"no_luck"							"NO LUCK"
+	"spins"								"spins!"
+	"gold"								"GOLD"
+
+	"slot_frog_msg"						"POCKET CHANGE"
+	"slot_lockjaw_msg"					"PAYOUT"
+	"slot_trapjaw_msg"					"PAYOUT"
+	"slot_mega_greevil_msg"				"OHH YEAH"
+	"slot_sheep_msg"					"DOUBLE"
+	"slot_present_msg"					"ITEM REWARD"
+	"slot_treasure_chest_msg"			"ITEM REWARD"
+	"slot_gold_greevil_msg"				"JACKPOT"
+
+	//
+
+}

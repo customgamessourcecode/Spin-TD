@@ -1,0 +1,84 @@
+"addon"
+{
+	"Unassigned"						"Неопределившиеся"
+	"Spectator"							"Зрители"
+	"Neutrals"							"Нейтралы"
+	"NoTeam"							"Без команды"
+	
+	"DOTA_GoodGuys"						"Защитники"
+	
+	"addonname"							"SPIN TD"
+	
+	//Loadingscreen section
+	"loading_screen_tutorial"			"Здравствуйте и добро пожаловать в Spin TD. Для строительства башен выберите платформы подходящего цвета и используйте специальные способности. Если хотите испытать удачу в рулетке, используйте способности героя."
+	//
+	
+	//scoreboard section
+	"legend_player"						"игрок"
+	"legend_kills"						"убийства"
+	"legend_towers"						"башни"
+	"legend_net"						"ценность"
+	"legend_spin"						"spin $"
+	//
+	
+	//game settings section
+	"settings_host_diff"				"Хост выбирает сложность"
+	
+	//NOTE: leading and trailing spaces are required otherwise the normal text gets replaced for some reason :/
+	"settings_diff_easy"				" Низкая "
+	"settings_diff_normal"				" Обычная "
+	"settings_diff_hard"				" Высокая "
+	
+	"settings_host_gamemode"			"Хост выбирает режим"
+	
+	//NOTE: leading and trailing spaces are required otherwise the normal text gets replaced for some reason :/
+	"settings_gamemode_normal"			" Обычный "
+	"settings_gamemode_SCRAMBLE"		" Свалка "
+	
+	//
+	
+	//PLUS MODE section
+	"text_plus_vote"					"Голосование: включить режим PLUS?"
+	"yes_vote"							"Да"
+	"no_vote"							"Нет"
+	//
+	
+	"itemTutorial"						"Перетаскивайте предматы на башни, чтобы экипировать их."
+	"startTutorial"						"Чтобы построить башню выберите цветную платформу, находящуюся рядом с вашим героем."
+	"dcTryingToBuild"					"Так как вы были отключены, теперь вам придётся подождать следующей волны, чтобы строить!"
+	"wave_notifier"						"Волна:"
+	
+	//boss messages section
+	
+	"boss_loot"							"Трофей босса"
+	
+	"boss_fish_hex"						"Плотва"
+	"boss_spamm_messer"					"Я ударю в самое слабое место!"
+	"boss_pudge"						"Свежее мясо"
+	"boss_high_priest"					"Вам не нужна скорость атаки"
+	"boss_lycan"						"Волк среди нас"
+	"boss_nyx"							"Никс никс никс"
+	"boss_abaddon"						"Дети, не играйте с проклятыми мечами."
+	"boss_faceless_void"				"ВРЕМЯ МОЛОТА"
+	"boss_tony"							"Даже бумага вас не спасёт."
+	"boss_roshan_spintd"				"RARGH"
+	
+	//slot machine section
+	
+	"slot_mult_symbol"					"X"
+	"no_luck"							"Не повезло"
+	"spins"								"вращает барабан!"
+	"gold"								"Золото"
+	
+	"slot_frog_msg"						"МЕЛОЧУШКА"
+	"slot_lockjaw_msg"					"ПРИБЫЛЬ"
+	"slot_trapjaw_msg"					"БИНГО"
+	"slot_mega_greevil_msg"				"ОУ ЕА"
+	"slot_sheep_msg"					"ДАБЛ"
+	"slot_present_msg"					"ВОЛШЕБНАЯ ВЕЩЬ"
+	"slot_treasure_chest_msg"			"ВОЛШЕБНАЯ ВЕЩЬ"
+	"slot_gold_greevil_msg"				"ДЖЕКПОТ"
+	
+	//
+	
+}

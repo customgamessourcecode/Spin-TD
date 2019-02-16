@@ -1,0 +1,8 @@
+td_map2
+{
+	material materials/overviews/td_map2.vmat
+	pos_x -4800
+	pos_y 4800
+	scale 9.375
+}
+

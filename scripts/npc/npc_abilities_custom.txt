@@ -1,0 +1,3420 @@
+
+// Dota Abilities Override File
+"DOTAAbilities"
+{
+  "Version"   "1"
+
+  "return_to_start_page"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "invoker_invoke"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "returnToStartPage"
+      }
+    }
+  }
+
+  "open_page_one"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "invoker_quas"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "goToPage"
+      }
+    }
+  }
+
+  "open_page_two"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "invoker_wex"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "goToPage"
+      }
+    }
+  }
+
+  "open_page_three"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "invoker_exort"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "goToPage"
+      }
+    }
+  }
+
+  "open_page_four"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "spectre_dispersion"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "goToPage"
+      }
+    }
+  }
+
+  "open_page_five"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "shadow_demon_disruption"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "goToPage"
+      }
+    }
+  }
+
+  "sell_tower"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_AURA"
+    "AbilityTextureName"        "alchemist_goblins_greed"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "0.0 0.0 0.0 0.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+    "HotKeyOverride"    "Y"
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "sellTower"
+      }
+    }
+  }
+
+  "sell_items"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_AURA"
+    "AbilityTextureName"        "alchemist_goblins_greed"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "1.0 1.0 1.0 1.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "0"
+    "AbilityChannelTime"      "1.0"
+
+    "OnChannelSucceeded"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/addon_game_mode.lua"
+        "Function"        "sellItems"
+      }
+    }
+
+  }
+
+  "slot_spin"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "juggernaut_blade_fury"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "5.0 5.0 5.0 5.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "10"
+
+    "AbilitySpecial"
+    {
+      "01"
+      {
+          "var_type"  "FIELD_INTEGER"
+          "goldcost" "10"
+      }
+    }
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/slotmachine.lua"
+        "Function"        "SpinAbility"
+      }
+    }
+  }
+
+  "slot_spin2"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityTextureName"        "axe_counter_helix"
+    "AbilityType"               "DOTA_ABILITY_TYPE_BASIC"
+    "MaxLevel"                  "1"
+    "LevelsBetweenUpgrades"     "1"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+    "AbilityCooldown"       "5.0 5.0 5.0 5.0"
+    "AbilityManaCost"       "0"
+    "AbilityGoldCost"             "50"
+
+    "AbilitySpecial"
+    {
+      "01"
+      {
+          "var_type"  "FIELD_INTEGER"
+          "goldcost" "50"
+      }
+    }
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "POINT"
+        "ScriptFile"      "scripts/vscripts/slotmachine.lua"
+        "Function"        "SpinAbility"
+      }
+    }
+  }
+
+  "hard_buff"
+  {
+    "BaseClass"           "ability_datadriven"
+    "AbilityBehavior"     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "AbilityTextureName"            "broodmother_insatiable_hunger"
+    "MaxLevel"                      "1"
+
+    "01"
+    {
+        "var_type"  "FIELD_FLOAT"
+        "reduction" "-7.0"
+    }
+
+    "Modifiers"
+    {
+      "hard_buff_buff"
+      {
+          "Passive"                        "1"
+          "IsHidden"                        "0"
+
+          "Properties"
+          {
+            "MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE" "0"
+          }
+      }
+    }
+  }
+
+  "speed_buff"
+  {
+    "BaseClass"           "ability_datadriven"
+    "AbilityBehavior"     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "AbilityTextureName"            "puck_illusory_orb"
+    "MaxLevel"                      "1"
+
+    "Modifiers"
+    {
+      "test_buff_buff"
+      {
+          "Attributes"       "MODIFIER_ATTRIBUTE_MULTIPLE"
+          "Passive"                        "1"
+          "IsHidden"                        "0"
+
+          "Properties"
+          {
+            "MODIFIER_PROPERTY_MOVESPEED_LIMIT" "5000"
+            "MODIFIER_PROPERTY_MOVESPEED_MAX" "5000"
+            "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE" "5000"
+          }
+      }
+    }
+  }
+
+  "spamm_boss_passive"
+  {
+    "AbilityBehavior"     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "earthshaker_aftershock"
+    "MaxLevel"                      "1"
+  }
+
+  "custom_land_mine"
+  {
+    "BaseClass"                 "ability_datadriven"
+
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+    "AbilityUnitDamageType"     "DAMAGE_TYPE_PHYSICAL"
+    "SpellImmunityType"       "SPELL_IMMUNITY_ENEMIES_YES"
+    "AbilityTextureName"        "techies_land_mines"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastRange"        "1000"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "12 12 12 12"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "0 0 0 0"
+
+    "precache"
+    {
+        "particle_folder" "particles/units/heroes/hero_techies"
+        "sound_folder" "sounds/weapons/hero/techies"
+        "model"     "models/heroes/techies/fx_techiesfx_mine.vmdl"
+    }
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+
+    }
+  }
+
+  "wisp_target"
+  {
+    "AbilityTextureName"        "tinker_rearm"
+    "BaseClass"                 "ability_datadriven"
+
+    "AbilityType"         "DOTA_ABILITY_TYPE_BASIC"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+    "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+    "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+    "AbilityCastRange"        "650"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "1 1 1 1"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "0 0 0 0"
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+
+    }
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "UNIT"
+        "ScriptFile"      "scripts/vscripts/unit_scripts/ai_wisp.lua"
+        "Function"        "selectTarget"
+      }
+    }
+   }
+
+  "stopistop"
+  {
+    "AbilityTextureName"        "tinker_rearm"
+    "BaseClass"                 "ability_datadriven"
+
+    "AbilityType"         "DOTA_ABILITY_TYPE_BASIC"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+    "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_BOTH"
+    "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+    "AbilityCastRange"        "8000"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "0 1 1 1"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "0 0 0 0"
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+
+    }
+
+    "OnSpellStart"
+    {
+      "RunScript"
+      {
+        "Target"        "UNIT"
+        "ScriptFile"      "scripts/vscripts/gamemode.lua"
+        "Function"        "stopIStop"
+      }
+    }
+  }
+
+  //BOSS ABILITIES
+
+  "fish_crush"
+  {
+    "BaseClass"                 "slardar_slithereen_crush"
+    "ID"          "5115"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+    "AbilityUnitDamageType"     "DAMAGE_TYPE_PHYSICAL"
+    "SpellImmunityType"       "SPELL_IMMUNITY_ENEMIES_NO"
+    "FightRecapLevel"       "1"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastRange"        "0"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "24.0 24.0 24.0 24.0"
+    "AbilityDuration"       "1.6 1.9 2.2 2.5"
+
+    // Damage.
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityDamage"         "0 0 0 0"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "80 95 105 115"
+
+    // Stats
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityModifierSupportValue" "0.5" // Applies multiple modifiers
+
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"          "FIELD_INTEGER"
+        "crush_radius"        "750"
+      }
+      "02"
+      {
+        "var_type"            "FIELD_INTEGER"
+        "crush_extra_slow"        "-20"
+      }
+      "03"
+      {
+        "var_type"            "FIELD_INTEGER"
+        "crush_attack_slow_tooltip"   "-20"
+      }
+      "04"
+      {
+        "var_type"            "FIELD_FLOAT"
+        "crush_extra_slow_duration"   "2.0"
+      }
+      "05"
+      {
+        "var_type"            "FIELD_FLOAT"
+        "stun_duration"         "1.6 1.9 2.2 2.5"
+      }
+    }
+  }
+
+  "fish_sprint"
+  {
+    "BaseClass"                 "slardar_sprint"
+    "ID"          "5114"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastRange"        "0"
+    "AbilityCastPoint"        "0.0 0.0 0.0 0.0"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "12"
+
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"          "FIELD_INTEGER"
+        "bonus_damage"        "75"
+      }
+      "02"
+      {
+        "var_type"          "FIELD_INTEGER"
+        "bonus_speed"       "20 28 36 250"
+      }
+      "03"
+      {
+        "var_type"          "FIELD_FLOAT"
+        "duration"          "2"
+      }
+    }
+  }
+
+  "custom_pudge_dismember"
+  {
+    "BaseClass"   "ability_datadriven" //"pudge_dismember"
+
+    "AbilityType"         "DOTA_ABILITY_TYPE_BASIC"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+    "AbilityUnitTargetTeam"       "DOTA_UNIT_TARGET_TEAM_ENEMY"
+    "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+    "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+    "SpellImmunityType"       "SPELL_IMMUNITY_ENEMIES_YES"
+    "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
+    "AbilityTextureName" "pudge_dismember"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastRange"        "450"
+    "AbilityCastPoint"        "0.0 0.0 0.0"
+    "AbilityCastAnimation"   "ACT_DOTA_CHANNEL_ABILITY_1"
+    "AnimationPlaybackRate"  "1"
+    "AnimationIgnoresModelScale" "0"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityChannelTime"      "3.0"
+    "AbilityCooldown"       "45.0 45.0 45.0"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "0"
+
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"                "FIELD_FLOAT"
+            "heal"                    "5000.0"
+        }
+
+        "02"
+        {
+            "var_type"                "FIELD_FLOAT"
+            "stun_duration"                    "3.0"
+        }
+    }
+
+    "OnSpellStart"
+    {
+        "ApplyModifier"
+        {
+            "Target" "TARGET"
+            "ModifierName" "modifier_drain"
+        }
+
+        "ApplyModifier"
+        {
+            "Target" "CASTER"
+            "ModifierName" "modifier_anim"
+        }
+
+        "Stun"
+        {
+          "Target"  "TARGET"
+          "Duration"  "%stun_duration"
+        }
+    }
+
+    "OnChannelFinish"
+    {
+        "RemoveModifier"
+        {
+            "Target" "TARGET"
+            "ModifierName" "modifier_drain"
+        }
+
+        "RemoveModifier"
+        {
+            "Target" "CASTER"
+            "ModifierName" "modifier_anim"
+        }
+    }
+    "OnChannelInterrupted"
+    {
+        "RemoveModifier"
+        {
+            "Target" "TARGET"
+            "ModifierName" "modifier_drain"
+        }
+
+        "RemoveModifier"
+        {
+            "Target" "CASTER"
+            "ModifierName" "modifier_anim"
+        }
+    }
+
+    "Modifiers"
+    {
+        "modifier_drain"
+        {
+            "IsDebuff" "1"
+            "ThinkInterval" "0.5"
+            "OnIntervalThink"
+            {
+                "Heal"
+                {
+                  "Target"  "CASTER"
+                  "HealAmount"  "%heal"
+                }
+
+                "FireSound"
+                {
+                    "EffectName" "Hero_Pudge.Dismember"
+                    "Target"     "CASTER"
+                }
+            }
+        }
+
+        "modifier_anim"
+        {
+          "OverrideAnimation" "ACT_DOTA_DISABLED"
+        }
+    }
+  }
+
+  "custom_lycan_summon_wolves"
+  {
+    "BaseClass"   "ability_datadriven"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+    "AbilityType"         "DOTA_ABILITY_TYPE_BASIC"
+    "AbilityTextureName" "lycan_summon_wolves"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastPoint"        "0.3 0.3 0.3 0.3"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "14.0 14.0 14.0 14.0"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "145"
+  }
+
+  "spawn_skelingtons"
+  {
+    "BaseClass"                "ability_datadriven"
+    "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    "AbilityType"                    "DOTA_ABILITY_TYPE_BASIC"
+    "AbilityCooldown"                "0.0"
+    "AbilityManaCost"                "0"
+
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"                    "FIELD_FLOAT"
+            "duration"                    "10.0"
+        }
+    }
+
+    "OnSpellStart"
+    {
+        "SpawnUnit"
+        {
+            "UnitName"    "npc_dota_broodmother_spiderling"
+            "UnitCount"    "1"
+            "SpawnRadius"    "200"
+            "Target"        "CASTER"
+
+            "OnSpawn"
+            {
+                "ApplyModifier"
+                {
+                    "ModifierName"    "modifier_kill"
+                    "Target"        "TARGET"
+                    "Duration"        "%duration"
+                }
+            }
+        }
+    }
+  }
+
+  "custom_lycan_shapeshift"
+  {
+    "BaseClass"                "lycan_shapeshift"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+    "AbilityType"         "DOTA_ABILITY_TYPE_ULTIMATE"
+    "FightRecapLevel"       "2"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "120.0 90.0 60.0"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "100 100 100"
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"          "FIELD_FLOAT"
+        "duration"          "320.0 320.0 320.0"
+      }
+      "02"
+      {
+        "var_type"          "FIELD_INTEGER"
+        "speed"       "750"
+      }
+      "03"
+      {
+        "var_type"          "FIELD_INTEGER"
+        "bonus_night_vision"    "1000"
+      }
+      "04"
+      {
+        "var_type"          "FIELD_INTEGER"
+        "crit_chance"       "30 30 30"
+      }
+      "05"
+      {
+        "var_type"          "FIELD_INTEGER"
+        "crit_damage"       "170 170 170"
+      }
+      "06"
+      {
+        "var_type"          "FIELD_FLOAT"
+        "transformation_time"   "1.5"
+      }
+    }
+  }
+
+  "rosh_rage_buff"
+  {
+    "BaseClass"           "ability_datadriven"
+    "AbilityBehavior"     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "AbilityTextureName"            "puck_illusory_orb"
+    "MaxLevel"                      "1"
+
+    "Modifiers"
+    {
+      "rosh_rage_buff_modifier"
+      {
+          "Attributes"       "MODIFIER_ATTRIBUTE_MULTIPLE"
+          "Passive"                        "1"
+          "IsHidden"                        "0"
+          
+          "EffectName" "particles/econ/courier/courier_hyeonmu_ambient/courier_hyeonmu_ambient_trail_steam.vpcf"
+          "EffectAttachType" "follow_origin"
+      }
+    }
+  }
+
+  //START_OF_GENERATED_BUILDTOWER_ABILITIES
+
+  "build_tower_abyssal_underlord"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "abyssal_underlord_atrophy_aura"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "70"
+      "AbilityCastRange"              "700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "70"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_abyssal_underlord"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "abyssal_underlord_atrophy_aura"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_abyssal_underlord2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_abyssal_underlord2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "abyssal_underlord_atrophy_aura"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "build_tower_crystal_maiden"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "crystal_maiden_crystal_nova"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "200"
+      "AbilityCastRange"              "700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "200"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_crystal_maiden"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "omniknight_degen_aura"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "80"
+      "AbilityCastRange"              "700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "80"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_crystal_maiden2"
+              "UpgradeAbility1"               "4"
+              "UpgradeAbility2"               "1"
+          }
+      }
+  }
+  
+  "build_tower_crystal_maiden2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "omniknight_degen_aura"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "80"
+      "AbilityCastRange"              "700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "80"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "1"
+          }
+      }
+  }
+  
+  "build_tower_dragon_knight"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "dragon_knight_elder_dragon_form"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "400"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "400"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_dragon_knight"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "dragon_knight_elder_dragon_form"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "125"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "125"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_dragon_knight2"
+              "UpgradeAbility1"               "3"
+          }
+      }
+  }
+  
+  "build_tower_dragon_knight2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "dragon_knight_elder_dragon_form"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "125"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "125"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "3"
+          }
+      }
+  }
+  
+  "build_tower_ember_spirit"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "ember_spirit_sleight_of_fist"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "600"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "600"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_ember_spirit"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "ember_spirit_sleight_of_fist"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "200"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "200"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_ember_spirit2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_ember_spirit2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "ember_spirit_sleight_of_fist"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "200"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "200"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "build_tower_gyrocopter"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "gyrocopter_flak_cannon"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "160"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "160"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "3"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_gyrocopter"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "gyrocopter_flak_cannon"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "60"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "60"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_gyrocopter2"
+              "UpgradeAbility1"               "4"
+          }
+      }
+  }
+  
+  "build_tower_gyrocopter2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "gyrocopter_flak_cannon"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "60"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "60"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_kunkka"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "kunkka_tidebringer"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "700"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "700"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_kunkka"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "kunkka_tidebringer"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "400"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "400"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_kunkka2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_kunkka2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "kunkka_tidebringer"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "400"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "400"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "build_tower_life_stealer"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "life_stealer_rage"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "900"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "900"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "build_tower_luna"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "luna_moon_glaive"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "300"
+      "AbilityCastRange"              "600"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "300"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "3"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_luna"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "luna_moon_glaive"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "120"
+      "AbilityCastRange"              "600"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "120"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_luna2"
+              "UpgradeAbility1"               "4"
+          }
+      }
+  }
+  
+  "build_tower_luna2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "luna_moon_glaive"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "120"
+      "AbilityCastRange"              "600"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "120"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_medusa"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "medusa_split_shot"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "800"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "800"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_medusa"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "medusa_split_shot"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "500"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "500"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_medusa2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_medusa2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "medusa_split_shot"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "500"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "500"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "build_tower_nevermore"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "nevermore_necromastery"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "50"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "50"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_nevermore"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "nevermore_necromastery"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "900"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_nevermore2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_nevermore2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "nevermore_necromastery"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "900"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "build_tower_phantom_assassin"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "phantom_assassin_coup_de_grace"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "30"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "30"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_phantom_assassin"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "phantom_assassin_coup_de_grace"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_phantom_assassin2"
+              "UpgradeAbility1"               "3"
+          }
+      }
+  }
+  
+  "build_tower_phantom_assassin2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "phantom_assassin_coup_de_grace"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "3"
+          }
+      }
+  }
+  
+  "build_tower_sniper"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "sniper_take_aim"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "280"
+      "AbilityCastRange"              "1700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "280"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_sniper"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "sniper_headshot"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "100"
+      "AbilityCastRange"              "1700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "100"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_sniper2"
+              "UpgradeAbility1"               "4"
+          }
+      }
+  }
+  
+  "build_tower_sniper2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "sniper_headshot"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "100"
+      "AbilityCastRange"              "1700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "100"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_spirit_breaker"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "spirit_breaker_greater_bash"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "10"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "10"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_spirit_breaker"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "slardar_amplify_damage"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_spirit_breaker2"
+              "UpgradeAbility1"               "2"
+              "UpgradeAbility2"               "1"
+          }
+      }
+  }
+  
+  "build_tower_spirit_breaker2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "slardar_amplify_damage"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+              "Ability2Level"                 "1"
+          }
+      }
+  }
+  
+  "build_tower_sven"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "sven_great_cleave"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "100"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "100"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_sven"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "chaos_knight_chaos_strike"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "25"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "25"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_sven2"
+              "UpgradeAbility1"               "4"
+              "UpgradeAbility2"               "4"
+          }
+      }
+  }
+  
+  "build_tower_sven2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "chaos_knight_chaos_strike"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "25"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "25"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_techies"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "techies_land_mines"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "80"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "80"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_techies"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "techies_land_mines"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "80"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "80"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_techies2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_techies2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "techies_land_mines"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "80"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "80"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "build_tower_templar_assassin"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "templar_assassin_psi_blades"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "15"
+      "AbilityCastRange"              "460"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "15"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_templar_assassin"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "templar_assassin_refraction"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "460"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_templar_assassin2"
+              "UpgradeAbility1"               "4"
+              "UpgradeAbility2"               "4"
+          }
+      }
+  }
+  
+  "build_tower_templar_assassin2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "templar_assassin_refraction"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "20"
+      "AbilityCastRange"              "460"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "20"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_ursa"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "ursa_fury_swipes"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "150"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "150"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_ursa"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "ursa_overpower"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_ursa2"
+              "UpgradeAbility1"               "4"
+              "UpgradeAbility2"               "4"
+          }
+      }
+  }
+  
+  "build_tower_ursa2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "ursa_overpower"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "500"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_venomancer"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "venomancer_poison_sting"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "3"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_venomancer"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "venomancer_poison_sting"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "15"
+      "AbilityCastRange"              "900"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "15"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_venomancer2"
+              "UpgradeAbility1"               "4"
+          }
+      }
+  }
+  
+  "build_tower_venomancer2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "venomancer_poison_sting"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "15"
+      "AbilityCastRange"              "900"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "15"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_warlock"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "warlock_fatal_bonds"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "800"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "800"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_warlock"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "warlock_fatal_bonds"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "200"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "200"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_warlock2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_warlock2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "warlock_fatal_bonds"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "200"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "200"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "build_tower_weaver"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "weaver_geminate_attack"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "60"
+      "AbilityCastRange"              "1000"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "60"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "3"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_weaver"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "weaver_geminate_attack"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "30"
+      "AbilityCastRange"              "1000"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "30"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_weaver2"
+              "UpgradeAbility1"               "4"
+          }
+      }
+  }
+  
+  "build_tower_weaver2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "weaver_geminate_attack"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "30"
+      "AbilityCastRange"              "1000"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "30"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_windrunner"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "windrunner_focusfire"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "5"
+      "AbilityCastRange"              "700"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "5"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_windrunner"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "troll_warlord_fervor"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "10"
+      "AbilityCastRange"              "900"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "10"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_windrunner2"
+              "UpgradeAbility1"               "2"
+          }
+      }
+  }
+  
+  "build_tower_windrunner2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "troll_warlord_fervor"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "10"
+      "AbilityCastRange"              "900"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "10"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "2"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_windrunner2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "troll_warlord_fervor"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "1000"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_windrunner3"
+              "UpgradeAbility1"               "4"
+          }
+      }
+  }
+  
+  "build_tower_windrunner3"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "troll_warlord_fervor"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "1000"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_wisp"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "wisp_tether"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "300"
+      "AbilityCastRange"              "650"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "300"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_witch_doctor"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "witch_doctor_paralyzing_cask"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "70"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "70"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_witch_doctor"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "witch_doctor_maledict"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_witch_doctor2"
+              "UpgradeAbility1"               "4"
+              "UpgradeAbility2"               "4"
+          }
+      }
+  }
+  
+  "build_tower_witch_doctor2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "witch_doctor_maledict"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "40"
+      "AbilityCastRange"              "800"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "40"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "4"
+          }
+      }
+  }
+  
+  "build_tower_zuus"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "zuus_arc_lightning"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "500"
+      "AbilityCastRange"              "850"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "500"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "1"
+          }
+      }
+  }
+  
+  "GEN_upgrade_tower_zuus"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "zuus_lightning_bolt"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "100"
+      "AbilityCastRange"              "850"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "100"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/tower.lua"
+              "Function"                      "upgradeTower"
+              "UpgradeTower"                  "tower_zuus2"
+              "UpgradeAbility1"               "4"
+              "UpgradeAbility2"               "1"
+              "UpgradeAbility3"               "4"
+          }
+      }
+  }
+  
+  "build_tower_zuus2"
+  {
+      "BaseClass"                     "ability_datadriven"
+      "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+      "AbilityTextureName"            "zuus_lightning_bolt"
+      "AbilityType"                   "DOTA_ABILITY_TYPE_BASIC"
+      "MaxLevel"                      "1"
+      "LevelsBetweenUpgrades"         "1"
+      "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+      "AbilityCooldown"               "0.0 0.0 0.0 0.0"
+      "AbilityManaCost"               "0"
+      "AbilityGoldCost"               "100"
+      "AbilityCastRange"              "850"
+  
+      "AbilitySpecial"
+      {
+          "01"
+          {
+              "var_type"                      "FIELD_INTEGER"
+              "goldcost"                      "100"
+          }
+      }
+  
+      "OnSpellStart"
+      {
+          "RunScript"
+          {
+              "Target"                        "POINT"
+              "ScriptFile"                    "scripts/vscripts/addon_game_mode.lua"
+              "Function"                      "buildNewTower"
+              "Ability1Level"                 "4"
+              "Ability2Level"                 "1"
+              "Ability3Level"                 "4"
+          }
+      }
+  }
+  
+  //END_OF_GENERATED_BUILDTOWER_ABILITIES
+
+//-------------------
+// Dummy stuff
+//-------------------
+  
+  "dummy_unit"
+  {
+    "AbilityBehavior"     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "rubick_empty1"
+    "MaxLevel"                      "1"
+    
+    "Modifiers"
+    {
+      "dummy_unit"
+      {
+          "Passive"                        "1"
+          "IsHidden"                        "1"    
+          "States"
+          {
+              "MODIFIER_STATE_UNSELECTABLE" "MODIFIER_STATE_VALUE_ENABLED"
+              "MODIFIER_STATE_INVULNERABLE"    "MODIFIER_STATE_VALUE_ENABLED"
+              "MODIFIER_STATE_NOT_ON_MINIMAP" "MODIFIER_STATE_VALUE_ENABLED"
+              "MODIFIER_STATE_NO_HEALTH_BAR"  "MODIFIER_STATE_VALUE_ENABLED"
+          }
+      }
+    }
+  }
+  
+  "barebones_empty1"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    //"ID"              "5343"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    "MaxLevel"            "0"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "rubick_empty1"
+  }
+  
+  "barebones_empty2"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    //"ID"              "5343"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    "MaxLevel"            "0"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "rubick_empty1"
+  }
+  
+  "barebones_empty3"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    //"ID"              "5343"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    "MaxLevel"            "0"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "rubick_empty1"
+  }
+  
+  "barebones_empty4"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    //"ID"              "5343"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    "MaxLevel"            "0"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "rubick_empty1"
+  }
+  
+  "barebones_empty5"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    //"ID"              "5343"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    "MaxLevel"            "0"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "rubick_empty1"
+  }
+  
+  "barebones_empty6"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    //"ID"              "5343"                            // unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    "MaxLevel"            "0"
+    "BaseClass"           "ability_datadriven"
+    "AbilityTextureName"            "rubick_empty1"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
